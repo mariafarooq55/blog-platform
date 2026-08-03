@@ -6,8 +6,8 @@ export default defineConfig({
   plugins: [react(), tailwindcss()],
   server: {
     proxy: {
-      "/api": "http://localhost:5000",
-      "/uploads": "http://localhost:5000",
+      "/api": "https://blogplatformbackend-x6kjndrv.b4a.run",
+      "/uploads": "https://blogplatformbackend-x6kjndrv.b4a.run",
     },
   },
 });
